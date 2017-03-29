@@ -94,6 +94,18 @@
       required: true
       type: "string"
       default: "example.com"
+    - variable: EVERNOTE_OAUTH_KEY
+      label: Evernote Key for the Evernote service
+      description:
+      required: true
+      type: "string"
+      default: "EVERNOTE_OAUTH_KEY"
+    - variable: EVERNOTE_OAUTH_SECRET
+      label: Evernote secret for the Evernote service
+      description:
+      required: true
+      type: "string"
+      default: "EVERNOTE_OAUTH_SECRET"
 huginn-threaded:
   scale: 1
 huginn-web:

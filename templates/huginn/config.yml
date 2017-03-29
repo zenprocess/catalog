@@ -1,4 +1,7 @@
 name: huginn
 description: |
      Build agents that monitor and act on your behalf. Your agents are standing by!
-version: v0.1.0
+version: v0.1.1
+
+
+
