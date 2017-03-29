@@ -1,6 +1,6 @@
 .catalog:
   name: huginn
-  version: 2.14
+  version: 2.14.1
   description: "Build agents that monitor and act on your behalf. Your agents are standing by!"
   uuid: huginn-1
   questions:
