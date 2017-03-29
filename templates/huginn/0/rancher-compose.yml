@@ -16,6 +16,12 @@
       required: true
       type: "string"
       default: "mysql2"
+    - variable: DATABASE_HOST
+      label: The hostname of the database, should be pointing to the internal container
+      description:
+      required: true
+      type: "string"
+      default: "mysqlh.rancher.internal"
     - variable: DATABASE_NAME
       label: The database schema name
       description:
@@ -41,37 +47,37 @@
       type: "string"
       default: "production"
     - variable: SMTP_USER_NAME
-      label: SMPT server username
+      label: SMTP server username
       description:
       required: true
       type: "string"
       default: "admin@example.com"
     - variable: SMTP_PASSWORD
-      label: SMPT server username
+      label: SMTP server password
       description:
       required: true
       type: "string"
       default: "12345"
     - variable: SMTP_SERVER
-      label: SMPT server hostname
+      label: SMTP server hostname
       description:
       required: true
       type: "string"
-      default: "smpt.example.com"
+      default: "SMTP.example.com"
     - variable: SMTP_PORT
-      label: SMPT server port
+      label: SMTP server port
       description:
       required: true
       type: "string"
       default: "25"
     - variable: SMTP_AUTHENTICATION
-      label: SMPT server authentication type
+      label: SMTP server authentication type
       description:
       required: true
       type: "string"
       default: "plain"
     - variable: SMTP_ENABLE_STARTTLS_AUTO
-      label: SMPT server starttls
+      label: SMTP server starttls
       description:
       required: true
       type: "string"
